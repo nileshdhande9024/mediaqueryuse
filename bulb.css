@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.parent{
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.my-top{
+    height: 30%;
+    width: 100%;
+    background-image: url("image/vitor-santos-GOQ32dlahDk-unsplash.jpg");
+    background-size: cover;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.my-top-img{
+    height: 40%;
+    width: 20%;
+}
+.top-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 42px;
+}
+.my-bottom{
+    height: 70%;
+    width: 100%;
+    border: 1px solid black;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.my-para{
+    height: 30%;
+    padding: 20px;
+    font-size: 27px;
+    color: white;
+    
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.my-card{
+    height: 65%;
+    width: 90%;
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 5px;
+}
+.my-Design{
+    height: 33.33%;
+    display: flex;
+}
+.my-Elements{
+    height: 33.33%;
+    display: flex;
+}
+.my-Support{
+    height: 33.33%;
+    display: flex;
+}
+.png-img{
+    height: 70%;
+    width: 17%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.my-heading{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 10px;
+}
+.my-png{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.bot-para{
+    color: grey;
+}
+
+@media (min-width:1024px) {
+    .parent{
+        height: 100vh;
+        width: 100vw;
+        background-color: aqua;
+        display: flex;
+        flex-direction: row;
+    }
+    .my-top{
+        height: 100%;
+        width: 35%;
+        background-size:cover;
+    }
+    .my-top-img{
+        height: 20%;
+        width: 30%;
+    }
+    .my-bottom{
+        height: 100%;
+        width: 65%;
+    }
+    .my-para{
+        font-size: 50px;
+       
+    }
+    h4{
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+    .my-heading{
+        justify-content: flex-start;
+    }
+    .my-png{
+        height: 80%;
+        width: 80%;
+    }
+    .my-card{
+        height: 60%;
+        width: 80%;
+        padding-top: 30px;
+    }
+    
+}
